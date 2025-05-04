@@ -1,0 +1,86 @@
+/* <!--body css--> */
+body {
+  font-family: papyrus, fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+body h1 {
+  font-family: papyrus, fantasy;
+  color: rgb(92, 10, 10);
+}
+/* <!--header css--> */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fee9e9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+header img {
+  max-height: 85px;
+}
+
+header h2 {
+  text-align: center;
+  color: #330e0e;
+}
+.Nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.Nav a {
+  color: #330e0e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ABOUT.HTML(css) */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border-color: #a3df78;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+main h2 {
+  text-align: center;
+  color: rgb(92, 10, 10);
+  font-weight: 400;
+}
+main p {
+  color: rgb(17, 15, 15);
+  font-weight: 100;
+  font-size: 17px;
+}
+p strong {
+  color: rgb(14, 7, 7);
+  font-weight: 600;
+}
+section {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 10px 0;
+  padding-left: 20px;
+  gap: 35px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}

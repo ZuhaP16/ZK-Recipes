@@ -1,0 +1,789 @@
+/* <!--BODY--> */
+body {
+  font-family: papyrus, fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* <!--HEADER--> */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fee9e9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  max-height: 80px;
+  margin-right: 10px;
+}
+
+header h2 {
+  margin: 0;
+  text-align: center;
+}
+.Nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.Nav a {
+  color: #330e0e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* BACKROUND IMG */
+/* 1.hummus */
+.hummus {
+  background-image: url(../images/hummus.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* 2.samak mashwi */
+.samakmashwi {
+  background-image: url(../images/samakmashwi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.amba {
+  background-image: url(../images/amba.webp);
+
+  background-position: center;
+}
+.burek {
+  background-image: url(../images/burek.jpg);
+
+  background-position: center;
+}
+.dajaj {
+  background-image: url(../images/dajajalfaham.jpg);
+  background-position: center;
+}
+.falafel {
+  background-image: url(../images/falafel.jpg);
+  background-position: center;
+}
+.shakshuka {
+  background-image: url(../images/shakshuka.jpg);
+  background-size: 800px;
+  background-position: right;
+}
+.tameez {
+  background-image: url(../images/tamees.jpg);
+
+  background-position: center;
+}
+.mutabbaq {
+  background-image: url(../images/mutabbaq.jpg);
+
+  background-position: center;
+}
+.saleeg {
+  background-image: url(../images/saleeg.webp);
+
+  background-position: right;
+}
+.shorbatadas {
+  background-image: url(../images/shorbatadas.webp);
+
+  background-position: bottom;
+  background-size: 600px;
+}
+.ayran {
+  background-image: url(../images/ayran.jpg);
+  background-position: center;
+}
+.jallab {
+  background-image: url(../images/jallab.webp);
+
+  background-position: center;
+}
+.saudicoffee {
+  background-image: url(../images/saudicoffee.jpg);
+
+  background-position: center;
+}
+.datemilk {
+  background-image: url(../images/datemilk.webp);
+
+  background-position: center;
+}
+.tamarhindi {
+  background-image: url(../images/tamarhindi.webp);
+
+  background-position: center;
+}
+.schampagne {
+  background-image: url(../images/schampagne.webp);
+
+  background-position: center;
+}
+.kaak {
+  background-image: url(../images/kaak.jpg);
+
+  background-position: center;
+}
+.muhallebi {
+  background-image: url(../images/muhallebi.webp);
+  background-size: 450px;
+  background-position: center;
+}
+.qatayef {
+  background-image: url(../images/qatayef.jpg);
+
+  background-position: center;
+}
+.maamoul {
+  background-image: url(../images/maamoul.avif);
+
+  background-position: center;
+}
+.kleija {
+  background-image: url(../images/kleija.jpg);
+
+  background-position: center;
+}
+.masoub {
+  background-image: url(../images/masoub.webp);
+
+  background-position: center;
+}
+.coldbrew {
+  background-image: url(../images/qahwacoldbrew.jpg);
+  background-size: 750px;
+  background-position: center;
+}
+.datebrownies {
+  background-image: url(../images/datebrownie.jpg);
+  background-position: center;
+}
+.jareesharancini {
+  background-image: url(../images/jareesharancici.jpg);
+  background-position: center;
+}
+.kunafamilkshake {
+  background-image: url(../images/kunafamilkshake.jpg);
+  background-position: 730px;
+}
+.lotusbalaleet {
+  background-image: url(../images/lotusbalaleet.jpg);
+  background-position: center;
+}
+.safroselatte {
+  background-image: url(../images/safroselatte.jpg);
+  background-position: center;
+  background-size: 510px;
+}
+.samboosatacos {
+  background-image: url(../images/samboosatacos.jpg);
+  background-position: center;
+}
+.muhammaricecream {
+  background-image: url(../images/muhammaricecreamsandwich.jpg);
+  background-position: center;
+}
+.gersogaily {
+  background-image: url(../images/gersogaily.jpg);
+  background-position: center;
+}
+.pistachiomilkshake {
+  background-image: url(../images/pistachiomilkshake.jpg);
+  background-position: center;
+}
+.knafehcheesecake {
+  background-image: url(../images/knafehcheesecakebite.webp);
+  background-position: center;
+}
+.lemonmojito {
+  background-image: url(../images/lemonmojito.jpg);
+  background-position: center;
+}
+.kabsawings {
+  background-image: url(../images/kabsawings.jpg);
+  background-position: center;
+}
+.shrimpmachboos {
+  background-image: url(../images/shrimpmachboos.jpg);
+  background-position: center;
+}
+.sliders {
+  background-image: url(../images/sliders.jpg);
+  background-position: center;
+}
+.kabsa {
+  background-image: url(../images/khabsa.png);
+  background-position: center;
+}
+.machboos {
+  background-image: url(../images/machboos1.jpg);
+  background-position: center;
+}
+.lambfatayer {
+  background-image: url(../images/lambfatayer.jpg);
+  background-position: center;
+}
+.labneh {
+  background-image: url(../images/labneh.webp);
+  background-position: center;
+}
+.kibdeh {
+  background-image: url(../images/kibdeh.jpg);
+  background-position: center;
+}
+.gabout {
+  background-image: url(../images/gabout.jpg);
+  background-position: center;
+}
+.zatar {
+  background-image: url(../images/zatar.jpg);
+  background-position: center;
+}
+.mawashrubian {
+  background-image: url(../images/mawashrubyan.jpg);
+  background-position: center;
+}
+.maragmisir {
+  background-image: url(../images/maraqmisir.jpg);
+  background-position: center;
+}
+.daqoos {
+  background-image: url(../images/daqoos.png);
+  background-position: center;
+}
+.boza {
+  background-image: url(../images/boza.jpg);
+  background-position: center;
+}
+.sulaimantea {
+  background-image: url(../images/sulaimantea.jpg);
+  background-position: center;
+}
+.sahlab {
+  background-image: url(../images/sahlab.jpg);
+  background-position: center;
+}
+.qahwa {
+  background-image: url(../images/qahwa.jpg);
+  background-position: center;
+}
+.chaihalib {
+  background-image: url(../images/chaihalib.jpg);
+  background-position: center;
+}
+.roselemonade {
+  background-image: url(../images/roselemonade.webp);
+  background-position: center;
+}
+.sabelgafsha {
+  background-image: url(../images/sabelgafsha.jpg);
+  background-position: center;
+}
+.darabeel {
+  background-image: url(../images/darabeel.jpg);
+  background-position: center;
+}
+.elbah {
+  background-image: url(../images/elbah.jpg);
+  background-position: center;
+  background-size: 610px;
+}
+.zalabia {
+  background-image: url(../images/zalabia.png);
+  background-position: center;
+}
+.ghraiba {
+  background-image: url(../images/ghraiba.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.khabeesa {
+  background-image: url(../images/khabeesa.webp);
+  background-position: center;
+}
+.shawaya {
+  background-image: url(../images/shawaya.avif);
+  background-position: center;
+}
+.samaksafi {
+  background-image: url(../images/samaksafi.jpeg);
+  background-position: center;
+}
+.behrainikebab {
+  background-image: url(../images/bahrainikebab.jpeg);
+  background-position: bottom;
+  background-position: rigth;
+}
+.taybeen {
+  background-image: url(../images/macaronitaybeen.webp);
+  background-position: center;
+}
+.khobezjebn {
+  background-image: url(../images/khobezjebn.jpeg);
+  background-position: center;
+}
+.mashkool {
+  background-image: url(../images/mashkool.jpg);
+  background-position: center;
+}
+.tashreeb {
+  background-image: url(../images/tashreeb.webp);
+  background-position: center;
+}
+.foulmedammes {
+  background-image: url(../images/foulmedammes.jpg);
+  background-position: center;
+}
+.sharbatzafran {
+  background-image: url(../images/sharbatzafran.jpg);
+  background-position: center;
+}
+.zanjabil {
+  background-image: url(../images/zanjalib.jpg);
+  background-position: bottom;
+}
+.sobia {
+  background-image: url(../images/sobia.webp);
+  background-position: bottom;
+}
+.awarqalb {
+  background-image: url(../images/awarqalb.jpg);
+  background-position: center;
+}
+.loza {
+  background-image: url(../images/sharbatloza.jpg);
+  background-position: bottom;
+}
+.naqee {
+  background-image: url(../images/naqeealzabib.jpg);
+  background-position: center;
+}
+.bhalwa {
+  background-image: url(../images/halwa1.webp);
+  background-position: left;
+}
+.vimtoicecream {
+  background-image: url(../images/vicecream.jpg);
+  background-position: center;
+}
+.knafehdates {
+  background-image: url(../images/knafehdates.jpg);
+  background-position: center;
+}
+.semolina {
+  background-image: url(../images/semolina.webp);
+  background-position: center;
+}
+.baklava {
+  background-image: url(../images/baklava.jpg);
+  background-position: center;
+}
+.datecake {
+  background-image: url(../images/datecake.jpg);
+  background-position: center;
+}
+.muhammar {
+  background-image: url(../images/Muhammar.jpg);
+  background-position: center;
+}
+.madrouba {
+  background-image: url(../images/madrouba.jpg);
+  background-position: center;
+}
+.madroubarisotto {
+  background-image: url(../images/madroubarisotto.jpg);
+  background-position: center;
+}
+.karakbobalatte {
+  background-image: url(../images/karakbobalatte.jpg);
+  background-position: left;
+  background-size: cover;
+}
+.qahwamisu {
+  background-image: url(../images/qahwamisu.jpg);
+  background-position: left;
+}
+.luqaimatcereal {
+  background-image: url(../images/luqaimatcereal.jpg);
+  background-position: bottom;
+}
+/* QATAR  */
+.saloona {
+  background-image: url(../images/saloona.webp);
+  background-position: center;
+}
+.shawarma {
+  background-image: url(../images/shawarma.webp);
+  background-position: right;
+}
+.sambusa {
+  background-image: url(../images/sambusa.jpg);
+  background-position: center;
+}
+.kousamahshi {
+  background-image: url(../images/kousamahshi.jpg);
+  background-position: center;
+}
+.jareesh {
+  background-image: url(../images/jareesh.jpg);
+  background-position: center;
+}
+.warakenab {
+  background-image: url(../images/warakenab.avif);
+  background-position: left;
+  background-size: 1000px;
+}
+.lahammandi {
+  background-image: url(../images/laham\ mandi.jpg);
+  background-position: center;
+  background-size: 500px;
+}
+.cheesefatayer {
+  background-image: url(../images/cheesefatayer.jpg);
+  background-position: center;
+}
+.karak {
+  background-image: url(../images/KarakTea.webp);
+  background-position: center;
+}
+.qamardeen {
+  background-image: url(../images/qamardeen.jpg);
+  background-position: center;
+}
+.zafranihalib {
+  background-image: url(../images/zafrani\ halib.jpg);
+  background-position: center;
+}
+.khussherbet {
+  background-image: url(../images/khussherbat.webp);
+  background-position: center;
+  background-size: cover;
+}
+.bandate {
+  background-image: url(../images/bandate.jpg);
+  background-position: center;
+}
+.karkadeh {
+  background-image: url(../images/karkadeh.webp);
+  background-position: center;
+}
+.haleeb {
+  background-image: url(../images/haleeb.jpg);
+  background-position: center;
+}
+.areeka {
+  background-image: url(../images/areeka.jpg);
+  background-position: center;
+}
+.haneni {
+  background-image: url(../images/haneni.jpg);
+  background-position: center;
+}
+.basbousa {
+  background-image: url(../images/basbousa.jpg);
+  background-position: center;
+}
+.mangosago {
+  background-image: url(../images/mango\ sago.jpg);
+  background-position: center;
+}
+.ummali {
+  background-image: url(../images/ummali.jpg);
+  background-position: center;
+}
+.cheesechebab {
+  background-image: url(../images/chebabcheese.jpg);
+  background-position: center;
+}
+.luqbites {
+  background-image: url(../images/luqbites.jpg);
+  background-position: left;
+}
+.kunafacake {
+  background-image: url(../images/kunafa\ cake.webp);
+  background-position: center;
+}
+.safroseslush {
+  background-image: url(../images/saffronroseslush.jpg);
+  background-position: center;
+}
+.beefshawarma {
+  background-image: url(../images/beefshawarma.jpg);
+  background-position: left;
+}
+.ouzi {
+  background-image: url(../images/ouzi.jpg);
+  background-position: center;
+}
+.falafelsand {
+  background-image: url(../images/falafelsand.webp);
+  background-position: center;
+  background-size: 2200px;
+}
+.chelokebab {
+  background-image: url(../images/chelokebab.jpg);
+  background-position: right;
+}
+.camelburger {
+  background-image: url(../images/camelburger.webp);
+  background-position: center;
+}
+.zafranichai {
+  background-image: url(../images/zafranichai.jpg);
+  background-position: center;
+  background-size: 800px;
+}
+.lemona {
+  background-image: url(../images/lemonmojito.jpg);
+  background-position: center;
+}
+.anisetea {
+  background-image: url(../images/anisetea.webp);
+  background-position: center;
+}
+.nabeez {
+  background-image: url(../images/nabeez.jpg);
+  background-position: center;
+  background-size: 500px;
+}
+.zatartea {
+  background-image: url(../images/zaatar\ tea.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.rumman {
+  background-image: url(../images/rumman.jpg);
+  background-position: center;
+}
+.aseeda {
+  background-image: url(../images/aseeda.jpg);
+  background-position: center;
+}
+.batheeth {
+  background-image: url(../images/batheeth.jpg);
+  background-position: center;
+  background-size: 1000px;
+}
+.khanfaroosh {
+  background-image: url(../images/khanfaroosh.jpg);
+  background-position: center;
+}
+.chebab {
+  background-image: url(../images/chebab.avif);
+  background-position: center;
+}
+.ranginak {
+  background-image: url(../images/ranginak.webp);
+  background-position: center;
+}
+.cbaklava {
+  background-image: url(../images/Kunafa-1.jpg);
+  background-position: center;
+}
+.harees {
+  background-image: url(../images/harees.avif);
+  background-position: center;
+}
+.dango {
+  background-image: url(../images/dango.jpg);
+  background-position: center;
+}
+.batataharra {
+  background-image: url(../images/Batata-Harra.jpg);
+  background-position: center;
+}
+.omaniburger {
+  background-image: url(../images/omaniburger.jpg);
+  background-position: center;
+}
+.omanichips {
+  background-image: url(../images/OmanChipsRoll.jpg);
+  background-position: center;
+}
+.camelcurry {
+  background-image: url(../images/camel\ curry.JPG);
+  background-position: center;
+}
+.shishtauk {
+  background-image: url(../images/shishtouk.jpg);
+  background-position: center;
+  background-size: 500px;
+}
+.regag {
+  background-image: url(../images/regag.jpg);
+  background-position: center;
+}
+.kaftah {
+  background-image: url(../images/kaftah.webp);
+  background-position: center;
+}
+.kharoob {
+  background-image: url(../images/carob.jpg);
+  background-position: center;
+}
+.saffrontea {
+  background-image: url(../images/zaffrani\ tea.avif);
+  background-position: center;
+}
+.jujube {
+  background-image: url(../images/jujube.avif);
+  background-position: center;
+}
+.vimto {
+  background-image: url(../images/vimto.jpeg);
+  background-position: center;
+}
+.toot {
+  background-image: url(../images/sharbattoot.jpg);
+  background-position: center;
+}
+.aserasab {
+  background-image: url(../images/aseerasab.jpg);
+  background-position: center;
+}
+.zlabia {
+  background-image: url(../images/zlabia.jpg);
+  background-position: center;
+}
+.saffroncake {
+  background-image: url(../images/saffroncake.jpg);
+  background-position: center;
+}
+.knafehcake {
+  background-image: url(../images/cake.webp);
+  background-position: center;
+}
+.mahohalwa {
+  background-image: url(../images/mahohalwa.webp);
+  background-position: center;
+}
+.almonddates {
+  background-image: url(../images/almonddates.jpg);
+  background-position: bottom;
+}
+.luqaimat {
+  background-image: url(../images/luqaimat.webp);
+  background-position: center;
+}
+.cheesesambusa {
+  background-image: url(../images/cheesesamboosa.jpg);
+  background-position: bottom;
+}
+.shuwadilla {
+  background-image: url(../images/Quesadilla.jpg);
+  background-position: center;
+}
+.halwabar {
+  background-image: url(../images/halwachocobar.jpg);
+  background-position: center;
+}
+.saficedlatte {
+  background-image: url(../images/safronicedlatte.jpg);
+  background-position: center;
+}
+.shuwa {
+  background-image: url(../images/shuwa.jpg);
+  background-position: center;
+}
+
+/* RECIPE NAME */
+.hero {
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #ffffff;
+}
+/* RECIPE DETAILS */
+.content {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  border-color: #523b31;
+  box-shadow: 0 4px 6px rgb(78, 42, 42);
+}
+
+.recipe-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ingredients,
+.steps {
+  margin-bottom: 20px;
+}
+.ingredients h2 {
+  font-weight: 550;
+  color: #50392f;
+}
+.ingredients ul {
+  font-size: large;
+  font-weight: 500;
+}
+.ingredients ul,
+.steps ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+.steps {
+  font-size: large;
+  font-weight: 500;
+}
+.related-recipes {
+  margin-top: 30px;
+}
+
+.related-recipes img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* YOUTUBE VIDEO */
+.video-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.video-section iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #fee9e9;
+  text-align: center;
+  font-family: papyrus, fantasy;
+  font-size: 14px;
+  padding: 1.5rem 0;
+}
+.footer a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+.footer a:hover {
+  color: #532c18;
+}

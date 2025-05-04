@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ZK Recipes</title>
+    <!-- STYLESHEET LINKS -->
+    <!-- facebook,twitter,insta icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- footer link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- home icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- saudi css -->
+    <link rel="stylesheet" href="SAcss.css" />
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="logo">
+        <a href="../index.html"
+          ><img src="../images/mainlogo.png" alt="ZK Recipes"
+        /></a>
+      </div>
+
+      <h2>ZK Recipes - Savor at Every Step</h2>
+      <div class="Nav">
+        <a href="../index.html">HOME</a>
+        <a href="../about.html">ABOUT</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- INTRODUCTION SECTION-->
+      <div class="intro-note">
+        <h3>
+          <img src="../images/world-flag.png" alt="Saudi Arabia" />
+          Welcome to Saudi Arabia's Culinary World
+          <img src="../images/world-flag.png" alt="Saudi Arabia" />
+        </h3>
+        <p>
+          Saudi Arabia is not just known for its rich history and breathtaking
+          landscapes but also for its mouth-watering cuisine. Here, food is more
+          than sustenance; it’s a celebration of life, family, and tradition.
+          Let’s dive into the unique flavors of this amazing country!
+        </p>
+      </div>
+    </div>
+
+    <!-- NATIONAL DISH-->
+    <div class="section">
+      <h3>National Dish: Kabsa</h3>
+      <div class="content">
+        <div>
+          <h4>What is Kabsa?</h4>
+          <p>
+            Kabsa is a beloved and aromatic rice dish widely regarded as the
+            national dish of Saudi Arabia. Known for its vibrant flavors and
+            rich aroma, Kabsa is typically made with long-grain basmati rice,
+            meat, a blend of spices, and a variety of accompaniments such as
+            nuts, raisins, and vegetables. The dish is often garnished with
+            fried onions and served with yogurt or a tangy tomato sauce called
+            "dakkous."
+          </p>
+          <h4>History and Origins</h4>
+          <p>
+            Kabsa, deeply rooted in Saudi Arabia's culinary heritage, originated
+            from traditional Bedouin cuisine, where hearty, shareable meals were
+            essential for nomadic life. Influenced by ancient spice trade
+            routes, Kabsa gained its distinctive flavor from staples like
+            cardamom, cloves, cinnamon, and black lime. Over time, it evolved
+            into a symbol of hospitality and unity, traditionally served at
+            family gatherings, festivals, weddings, and religious celebrations,
+            embodying the warmth and richness of Saudi culture.
+          </p>
+          <a href="../recipes/kabsa.html" class="button">Show Recipe</a>
+        </div>
+        <div class="image-container">
+          <img src="../images/khabsa.png" alt="Kabsa Dish" />
+        </div>
+      </div>
+    </div>
+    <div class="recipetag">
+      <h2>Handcrafted by Us—Because Average Just Isn’t Our Thing!</h2>
+    </div>
+
+    <!-- RECIPE CARDS -->
+    <section class="recipes"></section>
+
+    <script>
+      // RECIPES JS
+      const Recipes = [
+        {
+          name: "Kabsa Wings",
+          img: "../images/kabsawings.jpg",
+          description:
+            "A crispy Kabsa-spiced chicken wing glazed with hot honey.",
+          ref: "../recipes/kabsawings.html",
+        },
+
+        {
+          name: "Jareesh Arancini",
+          img: "../images/jareesharancici.jpg",
+          description:
+            "A fried arancini balls made from Jareesh and stuffed with cheese.",
+          ref: "../recipes/jareesharancini.html",
+        },
+        {
+          name: "Date Brownie",
+          img: "../images/datebrownie.jpg",
+          description:
+            "A chocolate brownies stuffed with Saudi dates and tahini.",
+          ref: "../recipes/datebrownies.html",
+        },
+        {
+          name: "Kunafa Milkshake",
+          img: "../images/kunafamilkshake.jpg",
+          description:
+            "A creamy vanilla milkshake blended with crispy kunafa crumbs.",
+          ref: "../recipes/kunafamilkshake.html",
+        },
+      ];
+      const recipesSection = document.querySelector(".recipes");
+      Recipes.forEach((recipe) => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        card.innerHTML = `
+        <img src="${recipe.img}" alt="${recipe.name} Dish" />
+        <h2>${recipe.name}</h2>
+        <p>${recipe.description}</p>
+        <a href="${recipe.ref}" class="btn">Show Recipe</a>
+      `;
+
+        recipesSection.appendChild(card);
+      });
+    </script>
+
+    <!-- PAGINATION -->
+    <div class="wrapper">
+      <div class="pagination">
+        <a href="../index.html" class="home-icon" title="Home">
+          <span class="material-icons">home</span>
+        </a>
+        <!-- In-between Pagination -->
+        <a href="sa.html" class="pagination__link">1</a>
+        <a href="page2.html" class="pagination__link">2</a>
+        <a href="page3.html" class="pagination__link">3</a>
+        <a href="page4.html" class="pagination__link">4</a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <footer
+        class="text-center text-lg-start text-brown"
+        style="background-color: #fee9e9"
+      >
+        <div class="container p-4 pb-0">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <img src="../images/mainlogo.png" alt="" class="w-75 h-75" />
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">ZK Recipes</h6>
+              <p>
+                ZKRecipes is your trusted companion in the kitchen, offering a
+                taste of Gulf culinary heritage. With mouthwatering recipes &
+                creative cooking ideas, we make every meal an unforgettable
+                journey.
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Useful Links</h6>
+              <p><a href="../about.html" class="text-black">About</a></p>
+              <p>
+                <a href="../t&c.html" class="text-black">Terms & Conditions</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Pune, India 411048, Pune</p>
+              <p><i class="fas fa-envelope mr-3"></i> ZKrecipes@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> +91 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> +91 234 567 89</p>
+            </div>
+          </div>
+          <hr class="my-3" />
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <div class="p-3">© 2025 Copyright ZKRecipes</div>
+            </div>
+            <div class="col-md-5 col-lg-4 text-center text-md-end">
+              <a class="btn btn-outline-dark btn-floating m-1" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-dark btn-floating m-1" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-dark btn-floating m-1" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>

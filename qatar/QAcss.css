@@ -1,0 +1,224 @@
+/* BODY CSS */
+body {
+  font-family: papyrus, fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: #fffffffe;
+}
+
+/*HEADER CSS*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fee9e9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header img {
+  max-height: 80px;
+  margin-right: 10px;
+}
+header h2 {
+  text-align: center;
+  color: #330e0e;
+}
+.Nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.Nav a {
+  color: #330e0e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* INTRODUCTION */
+.intro-note {
+  color: #463030;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.intro-note h3 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.intro-note p {
+  font-size: 19px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-weight: 550;
+  color: rgb(4, 4, 4);
+}
+
+/* NATIONAL DISH SECTION */
+.flag {
+  padding: 20px;
+  margin-left: 1rem;
+}
+.section {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.section h3 {
+  font-weight: bold;
+  text-align: center;
+  color: #463030;
+  padding: 0.3rem;
+}
+.section h4 {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #463030;
+}
+.section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 550;
+  color: rgb(0, 0, 0);
+}
+.content {
+  display: flex;
+}
+.content div {
+  padding-left: 1rem;
+}
+
+.image-container {
+  width: 600px;
+  margin-left: 10%;
+}
+.image-container img {
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+}
+/* recipe tag */
+.recipetag h2 {
+  color: #463030;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* NATIONAL DISH BUTTON */
+.button {
+  display: inline-block;
+  background-color: #796767;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: large;
+}
+.button:hover {
+  background-color: #a48585;
+}
+
+/* RECIPE CARDS */
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+  margin-bottom: 10px;
+  color: #463030;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card p {
+  margin-bottom: 15px;
+  color: #090909;
+}
+.card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #796767;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: #fff;
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
+}
+.card .btn:hover {
+  background-color: #a48585;
+}
+
+/* PAGINATION - HOME ICON */
+.home-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #463030;
+  padding: 5px;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+}
+
+/*PAGINATION */
+.wrapper {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+.pagination {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+.pagination__link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #463030;
+  font-weight: bolder;
+  border: 2px solid #241717;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.pagination__link:hover {
+  background-color: #796767;
+  color: #fff;
+}

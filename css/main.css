@@ -1,0 +1,159 @@
+/* <!--body css--> */
+body {
+  font-family: papyrus, fantasy;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* <!--header css--> */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fee9e9;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+header img {
+  max-height: 85px;
+}
+
+header h2 {
+  text-align: center;
+  color: #330e0e;
+}
+.Nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.Nav a {
+  color: #330e0e;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* Introduction Note css */
+.intro-note {
+  color: rgb(92, 10, 10);
+  text-align: center;
+  margin: 2% 10%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.intro-note h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.intro-note h4 {
+  color: rgb(92, 10, 10);
+  font-weight: 600;
+}
+.intro-note p {
+  font-size: 19px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-weight: 550;
+  color: rgb(4, 4, 4);
+}
+
+.intro-note button {
+  font-family: papyrus, fantasy;
+  color: #5d2b13;
+}
+.intro-note .cta-button {
+  background-color: #fff;
+  color: #ded5d5;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.intro-note .cta-button:hover {
+  background-color: #fee9e9;
+  transform: scale(1.05);
+}
+
+.intro-note .cta-button:focus {
+  outline: none;
+}
+
+/* map css */
+.map-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map-section img {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 70%;
+  height: 600px;
+  margin: 30px 0;
+}
+main h2 {
+  text-align: center;
+  color: rgb(92, 10, 10);
+}
+/* SEARCH BAR CSS */
+.search-container {
+  position: relative;
+  padding: 0px 5px;
+  margin: 20px 0px;
+  color: #fee9e9;
+  border: #330e0e;
+}
+.search-input {
+  height: 50px;
+  border-radius: 100px;
+  padding-left: 40px;
+  border: #3d0d0d;
+  box-shadow: 0 0 5px rgba(98, 45, 45, 0.992);
+  color: #330e0e;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #4d1515;
+}
+.suggestions-list {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  border-radius: 15px;
+  background: white;
+  color: #330e0e;
+  display: none;
+  position: absolute;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+.suggestions-list::-webkit-scrollbar {
+  display: none;
+}
+.suggestions-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.suggestions-list li:hover {
+  background: #ffe5e5;
+}

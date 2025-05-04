@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ZK Recipes</title>
+    <!-- STYLESHEET LINKS -->
+    <!-- facebook,twitter,insta icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- footer link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- home icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- saudi css -->
+    <link rel="stylesheet" href="UAEcss.css" />
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="logo">
+        <a href="../index.html"
+          ><img src="../images/mainlogo.png" alt="ZK Recipes"
+        /></a>
+      </div>
+
+      <h2>ZK Recipes - Savor at Every Step</h2>
+      <div class="Nav">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+      </div>
+    </header>
+    <div class="container">
+      <!-- INTRODUCTION SECTION-->
+      <div class="intro-note">
+        <h3>
+          <img src="../images/ufalg.png" alt="UAE" />
+          Welcome to the UAE's Culinary World
+          <img src="../images/ufalg.png" alt="UAE" />
+        </h3>
+        <p>
+          The United Arab Emirates is known for its deep-rooted traditions, warm
+          hospitality, and a cuisine that reflects its rich heritage. Emirati
+          food is simple yet hearty, with dishes that have been passed down for
+          generations. Let’s explore one of the UAE’s most treasured traditional
+          dishes!
+        </p>
+      </div>
+    </div>
+
+    <!-- NATIONAL DISH-->
+    <div class="section">
+      <h3>National Dish: Al Harees</h3>
+      <div class="content">
+        <div>
+          <h4>What is Al Harees?</h4>
+          <p>
+            Al Harees is a traditional Emirati dish made with just a few
+            ingredients yet packed with deep, comforting flavors. It consists of
+            wheat, meat (usually chicken or lamb), and a pinch of salt,
+            slow-cooked for hours until it reaches a smooth, porridge-like
+            consistency. The result is a rich, wholesome dish often enjoyed
+            during Ramadan and festive occasions.
+          </p>
+          <h4>History and Origins</h4>
+          <p>
+            Al Harees dates back centuries and has remained an essential part of
+            Emirati culture. Known for its simplicity and nourishing qualities,
+            it was originally prepared in clay pots over wood fires, requiring
+            patience and care. Traditionally served in large gatherings, Al
+            Harees symbolizes generosity, unity, and the strong sense of
+            community in the UAE.
+          </p>
+          <a href="../recipes/harees.html" class="button">Show Recipe</a>
+        </div>
+        <div class="image-container">
+          <img src="../images/harees.avif" alt="Al Harees Dish" />
+        </div>
+      </div>
+    </div>
+
+    <div class="recipetag">
+      <h2>Handcrafted by Us—Because Average Just Isn’t Our Thing!</h2>
+    </div>
+
+    <!-- RECIPE CARDS -->
+    <section class="recipes"></section>
+
+    <script>
+      // RECIPES JS
+      const Recipes = [
+        {
+          name: "Luqaimat  Pops",
+          img: "../images/luqbites.jpg",
+          description:
+            "A fun savory spin on luqaimat—crispy chicken bites glazed in sweet date syrup and sesame seeds.",
+          ref: "../recipes/luqbites.html",
+        },
+        {
+          name: "Cheese Chebab",
+          img: "../images/chebabcheese.jpg",
+          description:
+            "A cheesy twist on Emirati chebab pancakes, stuffed with cream cheese and drizzled with honey.",
+          ref: "../recipes/cheesechebab.html",
+        },
+        {
+          name: "Kunafa Cake",
+          img: "../images/kunafa\ cake.webp",
+          description:
+            "A pistachio & chocolate cake topped with crispy golden kataifi and overflowing with rich melted ganache.",
+          ref: "../recipes/kunafacake.html",
+        },
+        {
+          name: "SafRose Slush",
+          img: "../images/saffronroseslush.jpg",
+          description:
+            "A frozen rose water and saffron drink blended into a refreshing, floral, and lightly sweet slush.",
+          ref: "../recipes/safroseslush.html",
+        },
+      ];
+      const recipesSection = document.querySelector(".recipes");
+      Recipes.forEach((recipe) => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        card.innerHTML = `
+        <img src="${recipe.img}" alt="${recipe.name} Dish" />
+        <h2>${recipe.name}</h2>
+        <p>${recipe.description}</p>
+        <a href="${recipe.ref}" class="btn">Show Recipe</a>
+      `;
+
+        recipesSection.appendChild(card);
+      });
+    </script>
+
+    <!-- PAGINATION -->
+    <div class="wrapper">
+      <div class="pagination">
+        <a href="../index.html" class="home-icon" title="Home">
+          <span class="material-icons">home</span>
+        </a>
+        <!-- In-between Pagination -->
+        <a href="uae.html" class="pagination__link">1</a>
+        <a href="page2.html" class="pagination__link">2</a>
+        <a href="page3.html" class="pagination__link">3</a>
+        <a href="page4.html" class="pagination__link">4</a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <footer
+        class="text-center text-lg-start text-brown"
+        style="background-color: #fee9e9"
+      >
+        <div class="container p-4 pb-0">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <img src="../images/mainlogo.png" alt="" class="w-75 h-75" />
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">ZK Recipes</h6>
+              <p>
+                ZKRecipes is your trusted companion in the kitchen, offering a
+                taste of Gulf culinary heritage. With mouthwatering recipes &
+                creative cooking ideas, we make every meal an unforgettable
+                journey.
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Useful Links</h6>
+              <p><a href="../about.html" class="text-black">About</a></p>
+              <p>
+                <a href="../t&c.html" class="text-black">Terms & Conditions</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Pune, India 411048, Pune</p>
+              <p><i class="fas fa-envelope mr-3"></i> ZKrecipes@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> +91 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> +91 234 567 89</p>
+            </div>
+          </div>
+          <hr class="my-3" />
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <div class="p-3">© 2025 Copyright ZKRecipes</div>
+            </div>
+            <div class="col-md-5 col-lg-4 text-center text-md-end">
+              <a class="btn btn-outline-dark btn-floating m-1" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-dark btn-floating m-1" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-dark btn-floating m-1" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
